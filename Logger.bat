@@ -1,15 +1,17 @@
 ﻿@echo off
-echo. > l1.txt
-echo Log File >> l1.txt
-echo. >> l1.txt
-echo User : %username% >> l1.txt
-Date /t >>l1.txt
-Time /t >> l1.txt
-echo. >> l1.txt
-echo Process Ran by %username% >> l1.txt
-echo. >> l1.txt
-qprocess >> l1.txt
-echo. >> l1.txt
-echo Network Activities >> l1.txt
-netstat -s >> l1.txt
-exit
+color 02
+echo. > _log.txt
+echo Log File >> _log.txt
+echo. >> _log.txt
+echo User : %username% >> _log.txt
+Date /t >> _log.txt
+Time /t >> _log.txt
+echo. >> _log.txt
+echo Process Ran by %username% >> _log.txt
+echo. >> _log.txt
+qprocess >> _log.txt
+echo. >> _log.txt
+echo Network Activities >> _log.txt
+netstat -s >> _log.txt
+echo Created
+TIMEOUT 1 > nul
