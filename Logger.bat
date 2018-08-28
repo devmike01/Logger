@@ -1,7 +1,10 @@
 ﻿@echo off
-color 02
 echo. > _log.txt
 echo Log File >> _log.txt
+echo. >> _log.txt
+echo ************* >> _log.txt
+echo Logger.Bat Created by DevMike >> _log.txt
+echo ************* >> _log.txt
 echo. >> _log.txt
 echo User : %username% >> _log.txt
 Date /t >> _log.txt

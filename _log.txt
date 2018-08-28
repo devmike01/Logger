@@ -1,0 +1,131 @@
+ 
+Log File 
+ 
+************* 
+Logger.Bat Created by DevMike 
+************* 
+ 
+User : Oluwagbenga 
+Tue 08/28/2018 
+01:34 PM
+ 
+Process Ran by Oluwagbenga 
+ 
+ 
+Network Activities 
+
+IPv4 Statistics
+
+  Packets Received                   = 5974799
+  Received Header Errors             = 0
+  Received Address Errors            = 22
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 10
+  Received Packets Discarded         = 10007
+  Received Packets Delivered         = 109905888
+  Output Requests                    = 107879006
+  Routing Discards                   = 0
+  Discarded Output Packets           = 10143
+  Output Packet No Route             = 875
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+IPv6 Statistics
+
+  Packets Received                   = 18040
+  Received Header Errors             = 1
+  Received Address Errors            = 0
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 8392
+  Received Packets Delivered         = 46740
+  Output Requests                    = 49670
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 0
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  2318        2862      
+  Errors                    0           0         
+  Destination Unreachable   2113        2681      
+  Time Exceeded             48          0         
+  Parameter Problems        0           0         
+  Source Quenches           0           0         
+  Redirects                 0           0         
+  Echo Replies              147         10        
+  Echos                     10          171       
+  Timestamps                0           0         
+  Timestamp Replies         0           0         
+  Address Masks             0           0         
+  Address Mask Replies      0           0         
+  Router Solicitations      0           0         
+  Router Advertisements     0           0         
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  289         1927      
+  Errors                    0           0         
+  Destination Unreachable   0           14        
+  Packet Too Big            0           0         
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Echos                     0           0         
+  Echo Replies              0           0         
+  MLD Queries               0           0         
+  MLD Reports               5           0         
+  MLD Dones                 0           0         
+  Router Solicitations      0           1080      
+  Router Advertisements     0           0         
+  Neighbor Solicitations    38          420       
+  Neighbor Advertisements   246         413       
+  Redirects                 0           0         
+  Router Renumberings       0           0         
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 164791
+  Passive Opens                       = 81150
+  Failed Connection Attempts          = 19485
+  Reset Connections                   = 5920
+  Current Connections                 = 56
+  Segments Received                   = 109567804
+  Segments Sent                       = 107406928
+  Segments Retransmitted              = 116264
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 27
+  Passive Opens                       = 11
+  Failed Connection Attempts          = 16
+  Reset Connections                   = 22
+  Current Connections                 = 0
+  Segments Received                   = 6024
+  Segments Sent                       = 5990
+  Segments Retransmitted              = 32
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 229008
+  No Ports              = 96164
+  Receive Errors        = 1
+  Datagrams Sent        = 203368
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 53579
+  No Ports              = 8392
+  Receive Errors        = 0
+  Datagrams Sent        = 35917
